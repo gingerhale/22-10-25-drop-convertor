@@ -1,0 +1,42 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 26px;
+
+  background-color:lightpink;
+}
+section{
+  max-width: 50ch;
+  margin: auto;
+}
+
+fieldset {
+  margin-bottom: 1em;
+}
+
+fieldset > div {
+  display: flex;
+  margin: .25em;
+}
+
+label {
+  flex: 0 12ch;
+}
+
+input, select, textarea, button {
+  font-size: 26px;
+}
+
+input:required {
+  border: 2px solid red;
+}
+
+button {
+  padding: 0.25em 0.5em;
+  display: block;
+  margin: auto;
+}
+
+.required {
+  color: red;
+}
+
